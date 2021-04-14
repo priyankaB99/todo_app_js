@@ -16,20 +16,20 @@ body {
     color: rgb(163, 163, 163);
 }
 
-@media only screen and (max-width: 550px) {
+@media (min-width: 5px) and (max-width: 550px) {
     #addForm, #mainSection {
-        width: 85%;
+        width: 85% !important;
     }
     .todoItem {
-        width:80%;
+        width:80% !important;
     }
 }
-@media only screen and (max-width: 450px) {
+@media (min-width: 5px) and (max-width: 450px) {
     #addForm, #mainSection {
-        width: 90%;
+        width: 90% !important;
     }
     .todoItem {
-        width:65%;
+        width:65% !important;
     }
 }
 
