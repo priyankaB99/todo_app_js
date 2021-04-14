@@ -5,13 +5,10 @@
         <title>ToDo App</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </head>
     <body>
         <h2 class="text-center">Welcome to the Best, Least-Generic ToDo App on the Internet</h2>
-        <form>
+        <form id="addForm">
             <div class="form-group">
               <label for="newTodoInput">Add To Do Item</label>
               <input type="text" class="form-control" id="newTodoInput" placeholder="Enter To Do">
@@ -19,9 +16,14 @@
             <button type="submit" id="addTodoButton" class="btn btn-primary">Add</button>
         </form>
 
-        <section>
+        <div id="mainSection">
             <h3>Your ToDo's</h3>
             <hr>
-        </section>
+            <div id="todoList">
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </body>
 </html>

@@ -1,7 +1,27 @@
 body {
     padding: 30px 50px;
+    overflow-wrap: break-word;
 }
-form, section {
+#addForm, #mainSection {
     width: 400px;
     margin: 45px auto;
 }
+.todoItem {
+    width: 345px;
+    padding: 0 10px;
+    overflow-wrap: break-word;
+}
+.checked {
+    text-decoration: line-through;
+    color: rgb(163, 163, 163);
+}
+
+@media only screen and (max-width: 500px) {
+    #addForm, #mainSection {
+        width: 85%;
+    }
+    .todoItem {
+        width:80%;
+    }
+}
+
