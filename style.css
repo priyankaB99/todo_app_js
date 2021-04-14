@@ -1,6 +1,5 @@
 body {
-    padding: 30px 50px;
-    overflow-wrap: break-word;
+    padding: 40px 20px;
 }
 #addForm, #mainSection {
     width: 400px;
@@ -8,8 +7,11 @@ body {
 }
 .todoItem {
     width: 345px;
-    padding: 0 10px;
+    padding: 10px;
     overflow-wrap: break-word;
+}
+.close {
+    padding: 10px 0;
 }
 .checked {
     text-decoration: line-through;
@@ -21,10 +23,10 @@ body {
         width: 85% !important;
     }
     .todoItem {
-        width:80% !important;
+        width:70% !important;
     }
 }
-@media (min-width: 5px) and (max-width: 450px) {
+@media (min-width: 5px) and (max-width: 300px) {
     #addForm, #mainSection {
         width: 90% !important;
     }
