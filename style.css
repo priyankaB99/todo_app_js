@@ -1,0 +1,7 @@
+body {
+    padding: 30px 50px;
+}
+form, section {
+    width: 400px;
+    margin: 45px auto;
+}
